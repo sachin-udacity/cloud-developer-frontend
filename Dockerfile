@@ -25,3 +25,4 @@ EXPOSE 8100
 # Define the Docker image's behavior at runtime
 ENTRYPOINT ["ionic"]
 CMD ["serve", "8100", "--address", "0.0.0.0"]
+
